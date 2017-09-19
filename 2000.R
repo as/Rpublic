@@ -57,7 +57,6 @@ comb <- data.frame(gs[-nrow(gs),],gs[-1,-1])
 
 names(comb)[4:5] <- c("g.lag","s.lag")
 
-a cvwn
 comb$g.UP = comb$g.ret >= 0
 
 # glm(y ~ x1 + x2, family=binomial())
